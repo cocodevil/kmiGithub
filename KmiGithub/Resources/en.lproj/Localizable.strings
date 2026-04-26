@@ -1,0 +1,49 @@
+/* Tab */
+"tab.home" = "Home";
+"tab.search" = "Search";
+"tab.profile" = "Profile";
+
+/* Login */
+"login.subtitle" = "Explore open source projects on GitHub";
+"login.github" = "Login with GitHub";
+"login.biometric" = "Login with %@";
+"login.skip" = "Skip Login";
+
+/* Home */
+"home.empty.title" = "No Data";
+"home.empty.message" = "Loading trending repos, please wait";
+
+/* Search */
+"search.placeholder" = "Search repositories...";
+"search.empty.title" = "Search Repositories";
+"search.empty.message" = "Enter keywords to search repos on GitHub";
+"search.noresult.title" = "No Results";
+"search.noresult.message" = "Try searching with different keywords";
+"search.result.count" = "Found %d repositories";
+
+/* Profile */
+"profile.repos" = "Repositories";
+"profile.repos.count" = "Repos";
+"profile.followers" = "Followers";
+"profile.following" = "Following";
+"profile.logout" = "Logout";
+"profile.guest.title" = "Not Logged In";
+"profile.guest.message" = "Log in to view your profile and repositories";
+"profile.guest.login" = "Login";
+
+/* Error */
+"error.title" = "Error";
+"error.unknown" = "An unknown error occurred";
+"error.dismiss" = "OK";
+"error.retry" = "Retry";
+"error.network" = "Network connection failed, please check and retry";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.theme" = "Appearance";
+"theme.system" = "System";
+"theme.light" = "Light";
+"theme.dark" = "Dark";
+
+/* Loading */
+"loading" = "Loading...";

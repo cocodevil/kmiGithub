@@ -1,0 +1,49 @@
+/* Tab */
+"tab.home" = "首页";
+"tab.search" = "搜索";
+"tab.profile" = "我的";
+
+/* Login */
+"login.subtitle" = "探索 GitHub 上的开源项目";
+"login.github" = "使用 GitHub 登录";
+"login.biometric" = "使用 %@ 登录";
+"login.skip" = "跳过登录";
+
+/* Home */
+"home.empty.title" = "暂无数据";
+"home.empty.message" = "热门仓库加载中，请稍候";
+
+/* Search */
+"search.placeholder" = "搜索仓库...";
+"search.empty.title" = "搜索仓库";
+"search.empty.message" = "输入关键词搜索 GitHub 上的仓库";
+"search.noresult.title" = "没有结果";
+"search.noresult.message" = "尝试使用其他关键词搜索";
+"search.result.count" = "共找到 %d 个仓库";
+
+/* Profile */
+"profile.repos" = "仓库";
+"profile.repos.count" = "仓库";
+"profile.followers" = "关注者";
+"profile.following" = "正在关注";
+"profile.logout" = "退出登录";
+"profile.guest.title" = "未登录";
+"profile.guest.message" = "登录后查看您的个人资料和仓库";
+"profile.guest.login" = "去登录";
+
+/* Error */
+"error.title" = "出错了";
+"error.unknown" = "发生了未知错误";
+"error.dismiss" = "确定";
+"error.retry" = "重试";
+"error.network" = "网络连接失败，请检查网络后重试";
+
+/* Settings */
+"settings.title" = "设置";
+"settings.theme" = "外观模式";
+"theme.system" = "跟随系统";
+"theme.light" = "浅色";
+"theme.dark" = "深色";
+
+/* Loading */
+"loading" = "加载中...";

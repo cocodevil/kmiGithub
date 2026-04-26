@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3C0EEE42F9DA6F600A108EF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A3C0EEE32F9DA6F600A108EF /* Kingfisher */; };
+		A3C0EF002F9DA9DA00A108EF /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A3C0EEFF2F9DA9DA00A108EF /* CombineMoya */; };
+		A3C0EF022F9DA9DA00A108EF /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A3C0EF012F9DA9DA00A108EF /* Moya */; };
+		A3C0EF042F9DA9DA00A108EF /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A3C0EF032F9DA9DA00A108EF /* ReactiveMoya */; };
+		A3C0EF062F9DA9DA00A108EF /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A3C0EF052F9DA9DA00A108EF /* RxMoya */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3C0EEC02F9DA56800A108EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C0EEA12F9DA56600A108EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C0EEA82F9DA56600A108EF;
+			remoteInfo = KmiGithub;
+		};
+		A3C0EECA2F9DA56800A108EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C0EEA12F9DA56600A108EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C0EEA82F9DA56600A108EF;
+			remoteInfo = KmiGithub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3C0EEA92F9DA56600A108EF /* KmiGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KmiGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C0EEBF2F9DA56800A108EF /* KmiGithubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmiGithubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C0EEC92F9DA56800A108EF /* KmiGithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmiGithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A3C0EED12F9DA56800A108EF /* Exceptions for "KmiGithub" folder in "KmiGithub" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A3C0EEA82F9DA56600A108EF /* KmiGithub */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A3C0EEAB2F9DA56600A108EF /* KmiGithub */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A3C0EED12F9DA56800A108EF /* Exceptions for "KmiGithub" folder in "KmiGithub" target */,
+			);
+			path = KmiGithub;
+			sourceTree = "<group>";
+		};
+		A3C0EEC22F9DA56800A108EF /* KmiGithubTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KmiGithubTests;
+			sourceTree = "<group>";
+		};
+		A3C0EECC2F9DA56800A108EF /* KmiGithubUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KmiGithubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3C0EEA62F9DA56600A108EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C0EF062F9DA9DA00A108EF /* RxMoya in Frameworks */,
+				A3C0EF002F9DA9DA00A108EF /* CombineMoya in Frameworks */,
+				A3C0EF042F9DA9DA00A108EF /* ReactiveMoya in Frameworks */,
+				A3C0EEE42F9DA6F600A108EF /* Kingfisher in Frameworks */,
+				A3C0EF022F9DA9DA00A108EF /* Moya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C0EEBC2F9DA56800A108EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C0EEC62F9DA56800A108EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3C0EEA02F9DA56600A108EF = {
+			isa = PBXGroup;
+			children = (
+				A3C0EEAB2F9DA56600A108EF /* KmiGithub */,
+				A3C0EEC22F9DA56800A108EF /* KmiGithubTests */,
+				A3C0EECC2F9DA56800A108EF /* KmiGithubUITests */,
+				A3C0EEAA2F9DA56600A108EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C0EEAA2F9DA56600A108EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C0EEA92F9DA56600A108EF /* KmiGithub.app */,
+				A3C0EEBF2F9DA56800A108EF /* KmiGithubTests.xctest */,
+				A3C0EEC92F9DA56800A108EF /* KmiGithubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3C0EEA82F9DA56600A108EF /* KmiGithub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C0EED22F9DA56800A108EF /* Build configuration list for PBXNativeTarget "KmiGithub" */;
+			buildPhases = (
+				A3C0EEA52F9DA56600A108EF /* Sources */,
+				A3C0EEA62F9DA56600A108EF /* Frameworks */,
+				A3C0EEA72F9DA56600A108EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A3C0EEAB2F9DA56600A108EF /* KmiGithub */,
+			);
+			name = KmiGithub;
+			packageProductDependencies = (
+				A3C0EEE32F9DA6F600A108EF /* Kingfisher */,
+				A3C0EEFF2F9DA9DA00A108EF /* CombineMoya */,
+				A3C0EF012F9DA9DA00A108EF /* Moya */,
+				A3C0EF032F9DA9DA00A108EF /* ReactiveMoya */,
+				A3C0EF052F9DA9DA00A108EF /* RxMoya */,
+			);
+			productName = KmiGithub;
+			productReference = A3C0EEA92F9DA56600A108EF /* KmiGithub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3C0EEBE2F9DA56800A108EF /* KmiGithubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C0EED72F9DA56800A108EF /* Build configuration list for PBXNativeTarget "KmiGithubTests" */;
+			buildPhases = (
+				A3C0EEBB2F9DA56800A108EF /* Sources */,
+				A3C0EEBC2F9DA56800A108EF /* Frameworks */,
+				A3C0EEBD2F9DA56800A108EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C0EEC12F9DA56800A108EF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3C0EEC22F9DA56800A108EF /* KmiGithubTests */,
+			);
+			name = KmiGithubTests;
+			packageProductDependencies = (
+			);
+			productName = KmiGithubTests;
+			productReference = A3C0EEBF2F9DA56800A108EF /* KmiGithubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3C0EEC82F9DA56800A108EF /* KmiGithubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C0EEDA2F9DA56800A108EF /* Build configuration list for PBXNativeTarget "KmiGithubUITests" */;
+			buildPhases = (
+				A3C0EEC52F9DA56800A108EF /* Sources */,
+				A3C0EEC62F9DA56800A108EF /* Frameworks */,
+				A3C0EEC72F9DA56800A108EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C0EECB2F9DA56800A108EF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3C0EECC2F9DA56800A108EF /* KmiGithubUITests */,
+			);
+			name = KmiGithubUITests;
+			packageProductDependencies = (
+			);
+			productName = KmiGithubUITests;
+			productReference = A3C0EEC92F9DA56800A108EF /* KmiGithubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3C0EEA12F9DA56600A108EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					A3C0EEA82F9DA56600A108EF = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					A3C0EEBE2F9DA56800A108EF = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = A3C0EEA82F9DA56600A108EF;
+					};
+					A3C0EEC82F9DA56800A108EF = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = A3C0EEA82F9DA56600A108EF;
+					};
+				};
+			};
+			buildConfigurationList = A3C0EEA42F9DA56600A108EF /* Build configuration list for PBXProject "KmiGithub" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A3C0EEA02F9DA56600A108EF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A3C0EEE22F9DA6F600A108EF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A3C0EEFE2F9DA9DA00A108EF /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3C0EEAA2F9DA56600A108EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C0EEA82F9DA56600A108EF /* KmiGithub */,
+				A3C0EEBE2F9DA56800A108EF /* KmiGithubTests */,
+				A3C0EEC82F9DA56800A108EF /* KmiGithubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3C0EEA72F9DA56600A108EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C0EEBD2F9DA56800A108EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C0EEC72F9DA56800A108EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3C0EEA52F9DA56600A108EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C0EEBB2F9DA56800A108EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C0EEC52F9DA56800A108EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3C0EEC12F9DA56800A108EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C0EEA82F9DA56600A108EF /* KmiGithub */;
+			targetProxy = A3C0EEC02F9DA56800A108EF /* PBXContainerItemProxy */;
+		};
+		A3C0EECB2F9DA56800A108EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C0EEA82F9DA56600A108EF /* KmiGithub */;
+			targetProxy = A3C0EECA2F9DA56800A108EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3C0EED32F9DA56800A108EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9L5UYSR2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KmiGithub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komi.KmiGithub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A3C0EED42F9DA56800A108EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9L5UYSR2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KmiGithub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komi.KmiGithub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A3C0EED52F9DA56800A108EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AN9359RPZ5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3C0EED62F9DA56800A108EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AN9359RPZ5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3C0EED82F9DA56800A108EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN9359RPZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komi.KmiGithubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmiGithub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KmiGithub";
+			};
+			name = Debug;
+		};
+		A3C0EED92F9DA56800A108EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN9359RPZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komi.KmiGithubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmiGithub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KmiGithub";
+			};
+			name = Release;
+		};
+		A3C0EEDB2F9DA56800A108EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN9359RPZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komi.KmiGithubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmiGithub;
+			};
+			name = Debug;
+		};
+		A3C0EEDC2F9DA56800A108EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN9359RPZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komi.KmiGithubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmiGithub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3C0EEA42F9DA56600A108EF /* Build configuration list for PBXProject "KmiGithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C0EED52F9DA56800A108EF /* Debug */,
+				A3C0EED62F9DA56800A108EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C0EED22F9DA56800A108EF /* Build configuration list for PBXNativeTarget "KmiGithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C0EED32F9DA56800A108EF /* Debug */,
+				A3C0EED42F9DA56800A108EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C0EED72F9DA56800A108EF /* Build configuration list for PBXNativeTarget "KmiGithubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C0EED82F9DA56800A108EF /* Debug */,
+				A3C0EED92F9DA56800A108EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C0EEDA2F9DA56800A108EF /* Build configuration list for PBXNativeTarget "KmiGithubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C0EEDB2F9DA56800A108EF /* Debug */,
+				A3C0EEDC2F9DA56800A108EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A3C0EEE22F9DA6F600A108EF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 8.8.1;
+			};
+		};
+		A3C0EEFE2F9DA9DA00A108EF /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3C0EEE32F9DA6F600A108EF /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C0EEE22F9DA6F600A108EF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A3C0EEFF2F9DA9DA00A108EF /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C0EEFE2F9DA9DA00A108EF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		A3C0EF012F9DA9DA00A108EF /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C0EEFE2F9DA9DA00A108EF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		A3C0EF032F9DA9DA00A108EF /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C0EEFE2F9DA9DA00A108EF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		A3C0EF052F9DA9DA00A108EF /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C0EEFE2F9DA9DA00A108EF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A3C0EEA12F9DA56600A108EF /* Project object */;
+}
