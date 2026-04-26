@@ -16,6 +16,24 @@
 | 主题 | 浅色 / 深色 / 跟随系统，写入 `UserDefaults` |
 | 本地化 | 文案走 `Localizable.strings`（含简体中文） |
 
+## 应用截图
+
+| 欢迎 / 登录 | 首页 |
+|-------------|------|
+| ![欢迎页：KmiGithub 与 GitHub 登录](docs/screenshots/welcome.png) | ![首页：热门仓库列表](docs/screenshots/home.png) |
+
+| 搜索 | 我的（已登录-浅色） |
+|------|---------------------|
+| ![搜索：关键词与仓库结果](docs/screenshots/search.png) | ![我的：个人资料与仓库](docs/screenshots/profile.png) |
+
+| 我的（已登录-深色-仓库） | 我的（设置-深色） |
+|--------------------------|-------------------|
+| ![我的：仓库列表与深色主题](docs/screenshots/profile-repos-dark.png) | ![我的：外观与退出登录](docs/screenshots/profile-settings-dark.png) |
+
+| 未登录：我的 |
+|--------------|
+| ![我的：未登录与游客模式](docs/screenshots/profile-guest.png) |
+
 ## 技术实现
 
 - **UI**：SwiftUI，`NavigationView` + `TabView`，自定义组件（头像 `Kingfisher`、语言标签等）。
