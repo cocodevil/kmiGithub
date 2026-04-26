@@ -88,7 +88,7 @@ public class NetworkManager<Target: TargetType>: NetworkServiceProtocol {
                 }
                 if isCanLogStr {
                     let str = String(data: response.data, encoding: .utf8)
-                    print(str)
+                    print(str ?? "Encode error")
                 }
                 return response.data
             }
