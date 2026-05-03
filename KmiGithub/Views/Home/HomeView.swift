@@ -42,12 +42,14 @@ struct HomeView: View {
     private var repoList: some View {
         List {
             ForEach(viewModel.trendingRepos) { repo in
-                RepositoryRowView(repository: repo)
-                    .onAppear {
-                        if repo.id == viewModel.trendingRepos.last?.id {
-                            viewModel.loadNextPage()
+                NavigationLink(destination: RepositoryDetailView(repository: repo)) {
+                    RepositoryRowView(repository: repo)
+                        .onAppear {
+                            if repo.id == viewModel.trendingRepos.last?.id {
+                                viewModel.loadNextPage()
+                            }
                         }
-                    }
+                }
             }
 
             if viewModel.isLoading && !viewModel.trendingRepos.isEmpty {

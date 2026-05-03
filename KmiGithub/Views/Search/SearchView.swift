@@ -55,12 +55,14 @@ struct SearchView: View {
             }
 
             ForEach(viewModel.results) { repo in
-                RepositoryRowView(repository: repo)
-                    .onAppear {
-                        if repo.id == viewModel.results.last?.id {
-                            viewModel.loadNextPage()
+                NavigationLink(destination: RepositoryDetailView(repository: repo)) {
+                    RepositoryRowView(repository: repo)
+                        .onAppear {
+                            if repo.id == viewModel.results.last?.id {
+                                viewModel.loadNextPage()
+                            }
                         }
-                    }
+                }
             }
 
             if viewModel.isLoading && !viewModel.results.isEmpty {

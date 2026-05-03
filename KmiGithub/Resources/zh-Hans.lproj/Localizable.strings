@@ -31,6 +31,21 @@
 "profile.guest.message" = "登录后查看您的个人资料和仓库";
 "profile.guest.login" = "去登录";
 
+/* Repository Detail */
+"repo.detail.open.github" = "在 GitHub 打开";
+"repo.detail.stats" = "数据";
+"repo.detail.stars" = "星标";
+"repo.detail.watchers" = "关注";
+"repo.detail.forks" = "分支";
+"repo.detail.issues" = "开放问题";
+"repo.detail.info" = "信息";
+"repo.detail.language" = "语言";
+"repo.detail.default.branch" = "默认分支";
+"repo.detail.type" = "类型";
+"repo.detail.type.fork" = "Fork";
+"repo.detail.type.source" = "源仓库";
+"repo.detail.updated" = "更新时间";
+
 /* Error */
 "error.title" = "出错了";
 "error.unknown" = "发生了未知错误";

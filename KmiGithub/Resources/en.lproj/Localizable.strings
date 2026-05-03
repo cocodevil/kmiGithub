@@ -31,6 +31,21 @@
 "profile.guest.message" = "Log in to view your profile and repositories";
 "profile.guest.login" = "Login";
 
+/* Repository Detail */
+"repo.detail.open.github" = "Open on GitHub";
+"repo.detail.stats" = "Stats";
+"repo.detail.stars" = "Stars";
+"repo.detail.watchers" = "Watchers";
+"repo.detail.forks" = "Forks";
+"repo.detail.issues" = "Open Issues";
+"repo.detail.info" = "Info";
+"repo.detail.language" = "Language";
+"repo.detail.default.branch" = "Default Branch";
+"repo.detail.type" = "Type";
+"repo.detail.type.fork" = "Fork";
+"repo.detail.type.source" = "Source";
+"repo.detail.updated" = "Updated";
+
 /* Error */
 "error.title" = "Error";
 "error.unknown" = "An unknown error occurred";

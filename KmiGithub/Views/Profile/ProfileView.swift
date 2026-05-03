@@ -55,12 +55,14 @@ struct ProfileView: View {
             } else {
                 Section(header: Text(NSLocalizedString("profile.repos", comment: ""))) {
                     ForEach(viewModel.repos) { repo in
-                        RepositoryRowView(repository: repo)
-                            .onAppear {
-                                if repo.id == viewModel.repos.last?.id {
-                                    viewModel.loadNextPage()
+                        NavigationLink(destination: RepositoryDetailView(repository: repo)) {
+                            RepositoryRowView(repository: repo)
+                                .onAppear {
+                                    if repo.id == viewModel.repos.last?.id {
+                                        viewModel.loadNextPage()
+                                    }
                                 }
-                            }
+                        }
                     }
 
                     if viewModel.isLoadingRepos && !viewModel.repos.isEmpty {
